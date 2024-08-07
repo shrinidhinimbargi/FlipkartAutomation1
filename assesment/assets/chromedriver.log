@@ -1,0 +1,1709 @@
+[1723025314.727][INFO]: Starting ChromeDriver 127.0.6533.99 (f31af5097d90ef5ae5bd7b8700199bc6189ba34d-refs/branch-heads/6533@{#1910}) on port 7683
+[1723025314.727][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1723025315.000][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--remote-allow-origins=*" ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1723025315.003][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1723025315.007][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1723025315.009][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1723025315.009][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1723025315.011][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-allow-origins=* --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\nimba\AppData\Local\Temp\scoped_dir33388_1561128464" data:,
+[1723025315.871][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1723025316.179][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "127.0.6533.89",
+      "chrome": {
+         "chromedriverVersion": "127.0.6533.99 (f31af5097d90ef5ae5bd7b8700199bc6189ba34d-refs/branch-heads/6533@{#1910})",
+         "userDataDir": "C:\\Users\\nimba\\AppData\\Local\\Temp\\scoped_dir33388_1561128464"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50703"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "011a15233551e2af1fd9ad766fdc3361"
+}
+[1723025316.406][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND MaximizeWindow {
+}
+[1723025316.407][INFO]: Waiting for pending navigations...
+[1723025316.411][INFO]: Done waiting for pending navigations. Status: ok
+[1723025316.470][INFO]: Waiting for pending navigations...
+[1723025316.471][INFO]: Done waiting for pending navigations. Status: ok
+[1723025316.471][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE MaximizeWindow {
+   "height": 832,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1723025316.502][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND Navigate {
+   "url": "https://www.flipkart.com/"
+}
+[1723025316.502][INFO]: Waiting for pending navigations...
+[1723025316.504][INFO]: Done waiting for pending navigations. Status: ok
+[1723025316.973][INFO]: Waiting for pending navigations...
+[1723025318.920][INFO]: Done waiting for pending navigations. Status: ok
+[1723025318.920][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE Navigate
+[1723025338.938][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='q']"
+}
+[1723025338.938][INFO]: Waiting for pending navigations...
+[1723025338.939][INFO]: Done waiting for pending navigations. Status: ok
+[1723025338.952][INFO]: Waiting for pending navigations...
+[1723025338.953][INFO]: Done waiting for pending navigations. Status: ok
+[1723025338.953][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.7EE753D11572BC1A94291BB23CB659FB.e.78"
+}
+[1723025338.969][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.7EE753D11572BC1A94291BB23CB659FB.e.78"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1723025338.969][INFO]: Waiting for pending navigations...
+[1723025338.971][INFO]: Done waiting for pending navigations. Status: ok
+[1723025338.982][INFO]: Waiting for pending navigations...
+[1723025338.983][INFO]: Done waiting for pending navigations. Status: ok
+[1723025338.983][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE ExecuteScript true
+[1723025338.990][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND IsElementEnabled {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.7EE753D11572BC1A94291BB23CB659FB.e.78"
+}
+[1723025338.990][INFO]: Waiting for pending navigations...
+[1723025338.991][INFO]: Done waiting for pending navigations. Status: ok
+[1723025339.001][INFO]: Waiting for pending navigations...
+[1723025339.002][INFO]: Done waiting for pending navigations. Status: ok
+[1723025339.002][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE IsElementEnabled true
+[1723025339.006][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND ClearElement {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.7EE753D11572BC1A94291BB23CB659FB.e.78"
+}
+[1723025339.006][INFO]: Waiting for pending navigations...
+[1723025339.007][INFO]: Done waiting for pending navigations. Status: ok
+[1723025339.057][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1723025339.071][INFO]: Waiting for pending navigations...
+[1723025339.073][INFO]: Done waiting for pending navigations. Status: ok
+[1723025339.073][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE ClearElement
+[1723025347.092][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND TypeElement {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.7EE753D11572BC1A94291BB23CB659FB.e.78",
+   "text": "Washing Machine",
+   "value": [ "W", "a", "s", "h", "i", "n", "g", " ", "M", "a", "c", "h", "i", "n", "e" ]
+}
+[1723025347.092][INFO]: Waiting for pending navigations...
+[1723025347.093][INFO]: Done waiting for pending navigations. Status: ok
+[1723025347.178][INFO]: Waiting for pending navigations...
+[1723025347.199][INFO]: Done waiting for pending navigations. Status: ok
+[1723025347.199][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE TypeElement
+[1723025351.215][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND TypeElement {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.7EE753D11572BC1A94291BB23CB659FB.e.78",
+   "text": "",
+   "value": [ "" ]
+}
+[1723025351.215][INFO]: Waiting for pending navigations...
+[1723025351.216][INFO]: Done waiting for pending navigations. Status: ok
+[1723025351.247][INFO]: Waiting for pending navigations...
+[1723025353.924][INFO]: Done waiting for pending navigations. Status: ok
+[1723025353.924][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE TypeElement
+[1723025357.937][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[text()='Popularity']"
+}
+[1723025357.937][INFO]: Waiting for pending navigations...
+[1723025357.938][INFO]: Done waiting for pending navigations. Status: ok
+[1723025357.950][INFO]: Waiting for pending navigations...
+[1723025357.951][INFO]: Done waiting for pending navigations. Status: ok
+[1723025357.951][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.345"
+}
+[1723025357.955][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND ClickElement {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.345"
+}
+[1723025357.955][INFO]: Waiting for pending navigations...
+[1723025357.956][INFO]: Done waiting for pending navigations. Status: ok
+[1723025358.049][INFO]: Waiting for pending navigations...
+[1723025358.052][INFO]: Done waiting for pending navigations. Status: ok
+[1723025358.053][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE ClickElement
+[1723025362.061][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='col col-7-12']//div[@class='XQDdHH']"
+}
+[1723025362.061][INFO]: Waiting for pending navigations...
+[1723025362.063][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.077][INFO]: Waiting for pending navigations...
+[1723025362.080][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.080][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.404"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.405"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.406"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.407"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.408"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.409"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.410"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.411"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.412"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.413"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.414"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.415"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.416"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.417"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.418"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.419"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.420"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.421"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.422"
+}, "..." ]
+[1723025362.087][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='col col-7-12']//div[@class='XQDdHH']"
+}
+[1723025362.087][INFO]: Waiting for pending navigations...
+[1723025362.089][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.099][INFO]: Waiting for pending navigations...
+[1723025362.100][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.100][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.404"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.405"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.406"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.407"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.408"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.409"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.410"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.411"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.412"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.413"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.414"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.415"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.416"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.417"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.418"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.419"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.420"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.421"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.422"
+}, "..." ]
+[1723025362.106][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.404"
+}
+[1723025362.106][INFO]: Waiting for pending navigations...
+[1723025362.107][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.125][INFO]: Waiting for pending navigations...
+[1723025362.126][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.126][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.3"
+[1723025362.130][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.405"
+}
+[1723025362.130][INFO]: Waiting for pending navigations...
+[1723025362.132][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.140][INFO]: Waiting for pending navigations...
+[1723025362.141][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.141][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.3"
+[1723025362.146][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.406"
+}
+[1723025362.146][INFO]: Waiting for pending navigations...
+[1723025362.146][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.154][INFO]: Waiting for pending navigations...
+[1723025362.154][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.154][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.3"
+[1723025362.157][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.407"
+}
+[1723025362.157][INFO]: Waiting for pending navigations...
+[1723025362.158][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.167][INFO]: Waiting for pending navigations...
+[1723025362.168][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.168][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.1"
+[1723025362.171][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.408"
+}
+[1723025362.171][INFO]: Waiting for pending navigations...
+[1723025362.172][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.181][INFO]: Waiting for pending navigations...
+[1723025362.181][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.181][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.3"
+[1723025362.184][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.409"
+}
+[1723025362.184][INFO]: Waiting for pending navigations...
+[1723025362.185][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.193][INFO]: Waiting for pending navigations...
+[1723025362.196][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.196][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.2"
+[1723025362.198][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.410"
+}
+[1723025362.198][INFO]: Waiting for pending navigations...
+[1723025362.199][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.206][INFO]: Waiting for pending navigations...
+[1723025362.207][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.207][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.1"
+[1723025362.210][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.411"
+}
+[1723025362.210][INFO]: Waiting for pending navigations...
+[1723025362.212][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.219][INFO]: Waiting for pending navigations...
+[1723025362.220][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.220][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.3"
+[1723025362.222][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.412"
+}
+[1723025362.222][INFO]: Waiting for pending navigations...
+[1723025362.223][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.231][INFO]: Waiting for pending navigations...
+[1723025362.232][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.232][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.4"
+[1723025362.234][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.413"
+}
+[1723025362.234][INFO]: Waiting for pending navigations...
+[1723025362.235][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.242][INFO]: Waiting for pending navigations...
+[1723025362.246][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.246][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.3"
+[1723025362.249][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.414"
+}
+[1723025362.249][INFO]: Waiting for pending navigations...
+[1723025362.250][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.257][INFO]: Waiting for pending navigations...
+[1723025362.258][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.258][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.1"
+[1723025362.262][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.415"
+}
+[1723025362.262][INFO]: Waiting for pending navigations...
+[1723025362.263][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.270][INFO]: Waiting for pending navigations...
+[1723025362.270][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.270][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.3"
+[1723025362.273][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.416"
+}
+[1723025362.273][INFO]: Waiting for pending navigations...
+[1723025362.273][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.281][INFO]: Waiting for pending navigations...
+[1723025362.281][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.281][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.3"
+[1723025362.284][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.417"
+}
+[1723025362.284][INFO]: Waiting for pending navigations...
+[1723025362.284][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.292][INFO]: Waiting for pending navigations...
+[1723025362.292][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.292][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.2"
+[1723025362.295][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.418"
+}
+[1723025362.295][INFO]: Waiting for pending navigations...
+[1723025362.296][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.303][INFO]: Waiting for pending navigations...
+[1723025362.303][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.303][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.3"
+[1723025362.306][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.419"
+}
+[1723025362.306][INFO]: Waiting for pending navigations...
+[1723025362.306][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.314][INFO]: Waiting for pending navigations...
+[1723025362.315][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.315][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.4"
+[1723025362.317][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.420"
+}
+[1723025362.317][INFO]: Waiting for pending navigations...
+[1723025362.318][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.325][INFO]: Waiting for pending navigations...
+[1723025362.326][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.326][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.4"
+[1723025362.329][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.421"
+}
+[1723025362.329][INFO]: Waiting for pending navigations...
+[1723025362.330][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.337][INFO]: Waiting for pending navigations...
+[1723025362.338][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.338][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.3"
+[1723025362.340][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.422"
+}
+[1723025362.340][INFO]: Waiting for pending navigations...
+[1723025362.341][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.351][INFO]: Waiting for pending navigations...
+[1723025362.351][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.351][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.2"
+[1723025362.354][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.423"
+}
+[1723025362.354][INFO]: Waiting for pending navigations...
+[1723025362.355][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.365][INFO]: Waiting for pending navigations...
+[1723025362.366][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.366][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.4"
+[1723025362.368][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.424"
+}
+[1723025362.369][INFO]: Waiting for pending navigations...
+[1723025362.369][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.377][INFO]: Waiting for pending navigations...
+[1723025362.378][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.378][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.3"
+[1723025362.381][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.425"
+}
+[1723025362.381][INFO]: Waiting for pending navigations...
+[1723025362.382][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.388][INFO]: Waiting for pending navigations...
+[1723025362.389][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.389][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.3"
+[1723025362.392][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.426"
+}
+[1723025362.392][INFO]: Waiting for pending navigations...
+[1723025362.393][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.402][INFO]: Waiting for pending navigations...
+[1723025362.403][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.403][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.1"
+[1723025362.406][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.9AF8B03EA425977A5752DC2E33693249.e.427"
+}
+[1723025362.406][INFO]: Waiting for pending navigations...
+[1723025362.406][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.414][INFO]: Waiting for pending navigations...
+[1723025362.415][INFO]: Done waiting for pending navigations. Status: ok
+[1723025362.415][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "4.4"
+[1723025368.429][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND Navigate {
+   "url": "https://www.flipkart.com/"
+}
+[1723025368.429][INFO]: Waiting for pending navigations...
+[1723025368.431][INFO]: Done waiting for pending navigations. Status: ok
+[1723025368.862][INFO]: Waiting for pending navigations...
+[1723025372.744][INFO]: Done waiting for pending navigations. Status: ok
+[1723025372.744][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE Navigate
+[1723025392.762][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='q']"
+}
+[1723025392.762][INFO]: Waiting for pending navigations...
+[1723025392.763][INFO]: Done waiting for pending navigations. Status: ok
+[1723025392.774][INFO]: Waiting for pending navigations...
+[1723025392.776][INFO]: Done waiting for pending navigations. Status: ok
+[1723025392.776][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.07306914FD8942F4E0729CE18EA0EE32.e.504"
+}
+[1723025392.781][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.07306914FD8942F4E0729CE18EA0EE32.e.504"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1723025392.781][INFO]: Waiting for pending navigations...
+[1723025392.782][INFO]: Done waiting for pending navigations. Status: ok
+[1723025392.792][INFO]: Waiting for pending navigations...
+[1723025392.792][INFO]: Done waiting for pending navigations. Status: ok
+[1723025392.792][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE ExecuteScript true
+[1723025392.795][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND IsElementEnabled {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.07306914FD8942F4E0729CE18EA0EE32.e.504"
+}
+[1723025392.795][INFO]: Waiting for pending navigations...
+[1723025392.795][INFO]: Done waiting for pending navigations. Status: ok
+[1723025392.803][INFO]: Waiting for pending navigations...
+[1723025392.804][INFO]: Done waiting for pending navigations. Status: ok
+[1723025392.804][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE IsElementEnabled true
+[1723025392.807][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND ClearElement {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.07306914FD8942F4E0729CE18EA0EE32.e.504"
+}
+[1723025392.807][INFO]: Waiting for pending navigations...
+[1723025392.808][INFO]: Done waiting for pending navigations. Status: ok
+[1723025392.847][INFO]: Waiting for pending navigations...
+[1723025392.848][INFO]: Done waiting for pending navigations. Status: ok
+[1723025392.848][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE ClearElement
+[1723025400.856][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND TypeElement {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.07306914FD8942F4E0729CE18EA0EE32.e.504",
+   "text": "iPhone",
+   "value": [ "i", "P", "h", "o", "n", "e" ]
+}
+[1723025400.856][INFO]: Waiting for pending navigations...
+[1723025400.858][INFO]: Done waiting for pending navigations. Status: ok
+[1723025400.948][INFO]: Waiting for pending navigations...
+[1723025400.956][INFO]: Done waiting for pending navigations. Status: ok
+[1723025400.956][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE TypeElement
+[1723025404.974][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND TypeElement {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.07306914FD8942F4E0729CE18EA0EE32.e.504",
+   "text": "",
+   "value": [ "" ]
+}
+[1723025404.974][INFO]: Waiting for pending navigations...
+[1723025404.975][INFO]: Done waiting for pending navigations. Status: ok
+[1723025405.008][INFO]: Waiting for pending navigations...
+[1723025407.040][INFO]: Done waiting for pending navigations. Status: ok
+[1723025407.040][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE TypeElement
+[1723025412.043][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='yKfJKb row']//div[@class='UkUFwK']/span"
+}
+[1723025412.043][INFO]: Waiting for pending navigations...
+[1723025412.044][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.059][INFO]: Waiting for pending navigations...
+[1723025412.061][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.061][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.779"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.780"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.781"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.782"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.783"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.784"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.785"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.786"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.787"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.788"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.789"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.790"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.791"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.792"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.793"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.794"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.795"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.796"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.797"
+}, "..." ]
+[1723025412.065][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='yKfJKb row']//div[@class='UkUFwK']/span"
+}
+[1723025412.065][INFO]: Waiting for pending navigations...
+[1723025412.066][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.077][INFO]: Waiting for pending navigations...
+[1723025412.079][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.079][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.779"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.780"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.781"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.782"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.783"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.784"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.785"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.786"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.787"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.788"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.789"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.790"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.791"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.792"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.793"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.794"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.795"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.796"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.797"
+}, "..." ]
+[1723025412.085][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='yKfJKb row']//div[@class='KzDlHZ']"
+}
+[1723025412.085][INFO]: Waiting for pending navigations...
+[1723025412.086][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.104][INFO]: Waiting for pending navigations...
+[1723025412.106][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.106][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.803"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.804"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.805"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.806"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.807"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.808"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.809"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.810"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.811"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.812"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.813"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.814"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.815"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.816"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.817"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.818"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.819"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.820"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.821"
+}, "..." ]
+[1723025412.110][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='yKfJKb row']//div[@class='KzDlHZ']"
+}
+[1723025412.110][INFO]: Waiting for pending navigations...
+[1723025412.112][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.121][INFO]: Waiting for pending navigations...
+[1723025412.123][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.123][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.803"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.804"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.805"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.806"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.807"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.808"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.809"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.810"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.811"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.812"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.813"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.814"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.815"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.816"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.817"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.818"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.819"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.820"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.821"
+}, "..." ]
+[1723025412.127][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.779"
+}
+[1723025412.127][INFO]: Waiting for pending navigations...
+[1723025412.128][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.142][INFO]: Waiting for pending navigations...
+[1723025412.144][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.144][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "17% off"
+[1723025412.147][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.780"
+}
+[1723025412.147][INFO]: Waiting for pending navigations...
+[1723025412.148][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.159][INFO]: Waiting for pending navigations...
+[1723025412.159][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.159][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "17% off"
+[1723025412.162][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.781"
+}
+[1723025412.162][INFO]: Waiting for pending navigations...
+[1723025412.163][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.169][INFO]: Waiting for pending navigations...
+[1723025412.170][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.170][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "17% off"
+[1723025412.174][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.782"
+}
+[1723025412.174][INFO]: Waiting for pending navigations...
+[1723025412.174][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.187][INFO]: Waiting for pending navigations...
+[1723025412.190][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.190][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "15% off"
+[1723025412.193][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.783"
+}
+[1723025412.193][INFO]: Waiting for pending navigations...
+[1723025412.194][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.201][INFO]: Waiting for pending navigations...
+[1723025412.202][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.202][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "28% off"
+[1723025412.205][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.807"
+}
+[1723025412.205][INFO]: Waiting for pending navigations...
+[1723025412.206][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.214][INFO]: Waiting for pending navigations...
+[1723025412.214][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.214][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "Apple iPhone 14 Plus (Midnight, 128 GB)"
+[1723025412.218][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.784"
+}
+[1723025412.218][INFO]: Waiting for pending navigations...
+[1723025412.219][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.228][INFO]: Waiting for pending navigations...
+[1723025412.229][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.229][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "28% off"
+[1723025412.231][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.808"
+}
+[1723025412.231][INFO]: Waiting for pending navigations...
+[1723025412.232][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.240][INFO]: Waiting for pending navigations...
+[1723025412.241][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.241][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "Apple iPhone 14 Plus (Blue, 128 GB)"
+[1723025412.244][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.785"
+}
+[1723025412.244][INFO]: Waiting for pending navigations...
+[1723025412.245][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.252][INFO]: Waiting for pending navigations...
+[1723025412.252][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.252][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "15% off"
+[1723025412.255][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.786"
+}
+[1723025412.255][INFO]: Waiting for pending navigations...
+[1723025412.255][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.262][INFO]: Waiting for pending navigations...
+[1723025412.262][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.262][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "17% off"
+[1723025412.264][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.787"
+}
+[1723025412.264][INFO]: Waiting for pending navigations...
+[1723025412.265][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.272][INFO]: Waiting for pending navigations...
+[1723025412.273][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.273][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "16% off"
+[1723025412.275][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.788"
+}
+[1723025412.275][INFO]: Waiting for pending navigations...
+[1723025412.276][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.282][INFO]: Waiting for pending navigations...
+[1723025412.283][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.283][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "16% off"
+[1723025412.285][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.789"
+}
+[1723025412.285][INFO]: Waiting for pending navigations...
+[1723025412.285][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.294][INFO]: Waiting for pending navigations...
+[1723025412.294][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.294][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "16% off"
+[1723025412.296][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.790"
+}
+[1723025412.296][INFO]: Waiting for pending navigations...
+[1723025412.297][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.303][INFO]: Waiting for pending navigations...
+[1723025412.305][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.305][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "15% off"
+[1723025412.307][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.791"
+}
+[1723025412.307][INFO]: Waiting for pending navigations...
+[1723025412.308][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.315][INFO]: Waiting for pending navigations...
+[1723025412.315][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.315][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "28% off"
+[1723025412.318][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.815"
+}
+[1723025412.318][INFO]: Waiting for pending navigations...
+[1723025412.318][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.328][INFO]: Waiting for pending navigations...
+[1723025412.329][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.329][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "Apple iPhone 14 Plus (Starlight, 128 GB)"
+[1723025412.332][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.792"
+}
+[1723025412.332][INFO]: Waiting for pending navigations...
+[1723025412.333][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.343][INFO]: Waiting for pending navigations...
+[1723025412.344][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.344][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "14% off"
+[1723025412.346][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.793"
+}
+[1723025412.346][INFO]: Waiting for pending navigations...
+[1723025412.347][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.355][INFO]: Waiting for pending navigations...
+[1723025412.358][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.358][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "16% off"
+[1723025412.360][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.794"
+}
+[1723025412.360][INFO]: Waiting for pending navigations...
+[1723025412.361][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.368][INFO]: Waiting for pending navigations...
+[1723025412.369][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.369][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "17% off"
+[1723025412.372][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.795"
+}
+[1723025412.372][INFO]: Waiting for pending navigations...
+[1723025412.373][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.379][INFO]: Waiting for pending navigations...
+[1723025412.380][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.380][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "14% off"
+[1723025412.382][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.796"
+}
+[1723025412.382][INFO]: Waiting for pending navigations...
+[1723025412.383][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.391][INFO]: Waiting for pending navigations...
+[1723025412.392][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.392][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "21% off"
+[1723025412.394][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.820"
+}
+[1723025412.394][INFO]: Waiting for pending navigations...
+[1723025412.394][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.401][INFO]: Waiting for pending navigations...
+[1723025412.401][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.401][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "Apple iPhone 12 (Blue, 64 GB)"
+[1723025412.405][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.797"
+}
+[1723025412.405][INFO]: Waiting for pending navigations...
+[1723025412.406][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.413][INFO]: Waiting for pending navigations...
+[1723025412.414][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.414][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "14% off"
+[1723025412.416][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.798"
+}
+[1723025412.416][INFO]: Waiting for pending navigations...
+[1723025412.417][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.426][INFO]: Waiting for pending navigations...
+[1723025412.427][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.427][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "21% off"
+[1723025412.430][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.822"
+}
+[1723025412.430][INFO]: Waiting for pending navigations...
+[1723025412.430][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.440][INFO]: Waiting for pending navigations...
+[1723025412.442][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.442][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "Apple iPhone 12 (Black, 64 GB)"
+[1723025412.444][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.799"
+}
+[1723025412.444][INFO]: Waiting for pending navigations...
+[1723025412.445][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.453][INFO]: Waiting for pending navigations...
+[1723025412.458][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.458][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "14% off"
+[1723025412.460][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.800"
+}
+[1723025412.460][INFO]: Waiting for pending navigations...
+[1723025412.462][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.469][INFO]: Waiting for pending navigations...
+[1723025412.470][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.470][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "16% off"
+[1723025412.474][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.801"
+}
+[1723025412.474][INFO]: Waiting for pending navigations...
+[1723025412.475][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.482][INFO]: Waiting for pending navigations...
+[1723025412.483][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.483][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "18% off"
+[1723025412.485][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.825"
+}
+[1723025412.485][INFO]: Waiting for pending navigations...
+[1723025412.486][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.494][INFO]: Waiting for pending navigations...
+[1723025412.495][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.495][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "Apple iPhone 12 (Blue, 128 GB)"
+[1723025412.497][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.82CAE9A58282A97B63C93E55688C2405.e.802"
+}
+[1723025412.497][INFO]: Waiting for pending navigations...
+[1723025412.498][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.506][INFO]: Waiting for pending navigations...
+[1723025412.508][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.508][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "14% off"
+[1723025412.511][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND Navigate {
+   "url": "https://www.flipkart.com/"
+}
+[1723025412.511][INFO]: Waiting for pending navigations...
+[1723025412.512][INFO]: Done waiting for pending navigations. Status: ok
+[1723025412.957][INFO]: Waiting for pending navigations...
+[1723025414.213][INFO]: Done waiting for pending navigations. Status: ok
+[1723025414.213][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE Navigate
+[1723025421.217][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@name='q']"
+}
+[1723025421.217][INFO]: Waiting for pending navigations...
+[1723025421.218][INFO]: Done waiting for pending navigations. Status: ok
+[1723025421.225][INFO]: Waiting for pending navigations...
+[1723025421.226][INFO]: Done waiting for pending navigations. Status: ok
+[1723025421.226][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.ABF71997EA1253C699ECF10C9929804A.e.878"
+}
+[1723025421.231][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.ABF71997EA1253C699ECF10C9929804A.e.878"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1723025421.231][INFO]: Waiting for pending navigations...
+[1723025421.232][INFO]: Done waiting for pending navigations. Status: ok
+[1723025421.238][INFO]: Waiting for pending navigations...
+[1723025421.239][INFO]: Done waiting for pending navigations. Status: ok
+[1723025421.239][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE ExecuteScript true
+[1723025421.241][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND IsElementEnabled {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.ABF71997EA1253C699ECF10C9929804A.e.878"
+}
+[1723025421.241][INFO]: Waiting for pending navigations...
+[1723025421.241][INFO]: Done waiting for pending navigations. Status: ok
+[1723025421.247][INFO]: Waiting for pending navigations...
+[1723025421.248][INFO]: Done waiting for pending navigations. Status: ok
+[1723025421.248][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE IsElementEnabled true
+[1723025421.250][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND ClearElement {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.ABF71997EA1253C699ECF10C9929804A.e.878"
+}
+[1723025421.250][INFO]: Waiting for pending navigations...
+[1723025421.251][INFO]: Done waiting for pending navigations. Status: ok
+[1723025421.275][INFO]: Waiting for pending navigations...
+[1723025421.276][INFO]: Done waiting for pending navigations. Status: ok
+[1723025421.276][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE ClearElement
+[1723025429.269][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND TypeElement {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.ABF71997EA1253C699ECF10C9929804A.e.878",
+   "text": "Coffee Mug",
+   "value": [ "C", "o", "f", "f", "e", "e", " ", "M", "u", "g" ]
+}
+[1723025429.269][INFO]: Waiting for pending navigations...
+[1723025429.271][INFO]: Done waiting for pending navigations. Status: ok
+[1723025429.359][INFO]: Waiting for pending navigations...
+[1723025429.366][INFO]: Done waiting for pending navigations. Status: ok
+[1723025429.366][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE TypeElement
+[1723025433.374][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND TypeElement {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.ABF71997EA1253C699ECF10C9929804A.e.878",
+   "text": "",
+   "value": [ "" ]
+}
+[1723025433.374][INFO]: Waiting for pending navigations...
+[1723025433.375][INFO]: Done waiting for pending navigations. Status: ok
+[1723025433.410][INFO]: Waiting for pending navigations...
+[1723025435.253][INFO]: Done waiting for pending navigations. Status: ok
+[1723025435.253][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE TypeElement
+[1723025440.263][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElement {
+   "using": "xpath",
+   "value": "(//div[@class='XqNaEv'])[1]"
+}
+[1723025440.263][INFO]: Waiting for pending navigations...
+[1723025440.264][INFO]: Done waiting for pending navigations. Status: ok
+[1723025440.277][INFO]: Waiting for pending navigations...
+[1723025440.278][INFO]: Done waiting for pending navigations. Status: ok
+[1723025440.278][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1025"
+}
+[1723025440.281][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND ClickElement {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1025"
+}
+[1723025440.287][INFO]: Waiting for pending navigations...
+[1723025440.297][INFO]: Done waiting for pending navigations. Status: ok
+[1723025440.419][INFO]: Waiting for pending navigations...
+[1723025440.429][INFO]: Done waiting for pending navigations. Status: ok
+[1723025440.429][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE ClickElement
+[1723025444.437][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='slAVV4']//div[@class='_5OesEi afFzxY']/span[@class='Wphh3N']"
+}
+[1723025444.437][INFO]: Waiting for pending navigations...
+[1723025444.439][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.457][INFO]: Waiting for pending navigations...
+[1723025444.458][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.458][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1063"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1064"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1065"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1066"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1067"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1068"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1069"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1070"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1071"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1072"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1073"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1074"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1075"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1076"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1077"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1078"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1079"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1080"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1081"
+}, "..." ]
+[1723025444.462][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='slAVV4']//div[@class='_5OesEi afFzxY']/span[@class='Wphh3N']"
+}
+[1723025444.462][INFO]: Waiting for pending navigations...
+[1723025444.463][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.473][INFO]: Waiting for pending navigations...
+[1723025444.474][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.474][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1063"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1064"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1065"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1066"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1067"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1068"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1069"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1070"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1071"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1072"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1073"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1074"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1075"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1076"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1077"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1078"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1079"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1080"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1081"
+}, "..." ]
+[1723025444.478][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1063"
+}
+[1723025444.478][INFO]: Waiting for pending navigations...
+[1723025444.479][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.486][INFO]: Waiting for pending navigations...
+[1723025444.487][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.487][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(6,510)"
+[1723025444.489][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1064"
+}
+[1723025444.489][INFO]: Waiting for pending navigations...
+[1723025444.490][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.496][INFO]: Waiting for pending navigations...
+[1723025444.497][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.497][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(701)"
+[1723025444.499][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1065"
+}
+[1723025444.499][INFO]: Waiting for pending navigations...
+[1723025444.499][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.506][INFO]: Waiting for pending navigations...
+[1723025444.506][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.506][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(1,775)"
+[1723025444.508][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1066"
+}
+[1723025444.508][INFO]: Waiting for pending navigations...
+[1723025444.509][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.515][INFO]: Waiting for pending navigations...
+[1723025444.515][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.515][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(7,949)"
+[1723025444.517][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1067"
+}
+[1723025444.517][INFO]: Waiting for pending navigations...
+[1723025444.518][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.524][INFO]: Waiting for pending navigations...
+[1723025444.524][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.524][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(5,960)"
+[1723025444.526][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1068"
+}
+[1723025444.526][INFO]: Waiting for pending navigations...
+[1723025444.527][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.534][INFO]: Waiting for pending navigations...
+[1723025444.535][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.535][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(320)"
+[1723025444.537][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1069"
+}
+[1723025444.537][INFO]: Waiting for pending navigations...
+[1723025444.538][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.546][INFO]: Waiting for pending navigations...
+[1723025444.546][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.546][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(4,316)"
+[1723025444.548][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1070"
+}
+[1723025444.548][INFO]: Waiting for pending navigations...
+[1723025444.549][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.556][INFO]: Waiting for pending navigations...
+[1723025444.556][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.556][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(7)"
+[1723025444.558][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1071"
+}
+[1723025444.558][INFO]: Waiting for pending navigations...
+[1723025444.559][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.565][INFO]: Waiting for pending navigations...
+[1723025444.566][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.566][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(629)"
+[1723025444.568][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1072"
+}
+[1723025444.568][INFO]: Waiting for pending navigations...
+[1723025444.569][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.575][INFO]: Waiting for pending navigations...
+[1723025444.575][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.576][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(95)"
+[1723025444.577][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1073"
+}
+[1723025444.577][INFO]: Waiting for pending navigations...
+[1723025444.578][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.584][INFO]: Waiting for pending navigations...
+[1723025444.584][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.584][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(12)"
+[1723025444.586][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1074"
+}
+[1723025444.586][INFO]: Waiting for pending navigations...
+[1723025444.587][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.593][INFO]: Waiting for pending navigations...
+[1723025444.593][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.593][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(1,729)"
+[1723025444.595][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1075"
+}
+[1723025444.595][INFO]: Waiting for pending navigations...
+[1723025444.595][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.601][INFO]: Waiting for pending navigations...
+[1723025444.602][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.602][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(122)"
+[1723025444.603][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1076"
+}
+[1723025444.603][INFO]: Waiting for pending navigations...
+[1723025444.604][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.611][INFO]: Waiting for pending navigations...
+[1723025444.611][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.611][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(571)"
+[1723025444.613][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1077"
+}
+[1723025444.613][INFO]: Waiting for pending navigations...
+[1723025444.614][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.620][INFO]: Waiting for pending navigations...
+[1723025444.621][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.621][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(120)"
+[1723025444.623][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1078"
+}
+[1723025444.623][INFO]: Waiting for pending navigations...
+[1723025444.624][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.630][INFO]: Waiting for pending navigations...
+[1723025444.631][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.631][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(1,219)"
+[1723025444.632][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1079"
+}
+[1723025444.633][INFO]: Waiting for pending navigations...
+[1723025444.633][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.639][INFO]: Waiting for pending navigations...
+[1723025444.640][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.640][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(372)"
+[1723025444.642][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1080"
+}
+[1723025444.642][INFO]: Waiting for pending navigations...
+[1723025444.643][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.649][INFO]: Waiting for pending navigations...
+[1723025444.650][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.650][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(72)"
+[1723025444.652][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1081"
+}
+[1723025444.652][INFO]: Waiting for pending navigations...
+[1723025444.652][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.659][INFO]: Waiting for pending navigations...
+[1723025444.660][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.660][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(806)"
+[1723025444.662][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1082"
+}
+[1723025444.662][INFO]: Waiting for pending navigations...
+[1723025444.662][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.704][INFO]: Waiting for pending navigations...
+[1723025444.705][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.705][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(107)"
+[1723025444.707][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1083"
+}
+[1723025444.707][INFO]: Waiting for pending navigations...
+[1723025444.708][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.721][INFO]: Waiting for pending navigations...
+[1723025444.722][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.722][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(3,733)"
+[1723025444.725][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1084"
+}
+[1723025444.726][INFO]: Waiting for pending navigations...
+[1723025444.727][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.733][INFO]: Waiting for pending navigations...
+[1723025444.734][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.734][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(3)"
+[1723025444.736][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1085"
+}
+[1723025444.736][INFO]: Waiting for pending navigations...
+[1723025444.737][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.743][INFO]: Waiting for pending navigations...
+[1723025444.743][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.743][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(277)"
+[1723025444.745][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1086"
+}
+[1723025444.745][INFO]: Waiting for pending navigations...
+[1723025444.746][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.752][INFO]: Waiting for pending navigations...
+[1723025444.752][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.752][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(12)"
+[1723025444.754][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1087"
+}
+[1723025444.754][INFO]: Waiting for pending navigations...
+[1723025444.754][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.760][INFO]: Waiting for pending navigations...
+[1723025444.761][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.761][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(2,922)"
+[1723025444.763][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1088"
+}
+[1723025444.763][INFO]: Waiting for pending navigations...
+[1723025444.763][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.769][INFO]: Waiting for pending navigations...
+[1723025444.770][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.770][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(591)"
+[1723025444.772][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1089"
+}
+[1723025444.772][INFO]: Waiting for pending navigations...
+[1723025444.772][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.779][INFO]: Waiting for pending navigations...
+[1723025444.780][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.780][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(12)"
+[1723025444.781][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1090"
+}
+[1723025444.781][INFO]: Waiting for pending navigations...
+[1723025444.782][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.788][INFO]: Waiting for pending navigations...
+[1723025444.789][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.789][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(1,141)"
+[1723025444.790][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1091"
+}
+[1723025444.790][INFO]: Waiting for pending navigations...
+[1723025444.791][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.797][INFO]: Waiting for pending navigations...
+[1723025444.798][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.798][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(521)"
+[1723025444.799][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1092"
+}
+[1723025444.799][INFO]: Waiting for pending navigations...
+[1723025444.800][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.806][INFO]: Waiting for pending navigations...
+[1723025444.807][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.807][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(160)"
+[1723025444.808][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1093"
+}
+[1723025444.808][INFO]: Waiting for pending navigations...
+[1723025444.809][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.815][INFO]: Waiting for pending navigations...
+[1723025444.816][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.816][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(384)"
+[1723025444.818][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1094"
+}
+[1723025444.818][INFO]: Waiting for pending navigations...
+[1723025444.818][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.824][INFO]: Waiting for pending navigations...
+[1723025444.825][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.825][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(4)"
+[1723025444.827][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1095"
+}
+[1723025444.827][INFO]: Waiting for pending navigations...
+[1723025444.828][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.835][INFO]: Waiting for pending navigations...
+[1723025444.835][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.836][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(43)"
+[1723025444.837][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1096"
+}
+[1723025444.837][INFO]: Waiting for pending navigations...
+[1723025444.838][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.845][INFO]: Waiting for pending navigations...
+[1723025444.845][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.845][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(372)"
+[1723025444.847][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1097"
+}
+[1723025444.847][INFO]: Waiting for pending navigations...
+[1723025444.848][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.854][INFO]: Waiting for pending navigations...
+[1723025444.854][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.854][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(733)"
+[1723025444.856][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1098"
+}
+[1723025444.856][INFO]: Waiting for pending navigations...
+[1723025444.857][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.864][INFO]: Waiting for pending navigations...
+[1723025444.865][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.865][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(1,864)"
+[1723025444.867][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1099"
+}
+[1723025444.867][INFO]: Waiting for pending navigations...
+[1723025444.867][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.874][INFO]: Waiting for pending navigations...
+[1723025444.874][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.874][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(8)"
+[1723025444.876][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1100"
+}
+[1723025444.876][INFO]: Waiting for pending navigations...
+[1723025444.877][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.883][INFO]: Waiting for pending navigations...
+[1723025444.884][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.884][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(6)"
+[1723025444.885][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1101"
+}
+[1723025444.885][INFO]: Waiting for pending navigations...
+[1723025444.886][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.893][INFO]: Waiting for pending navigations...
+[1723025444.893][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.893][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(369)"
+[1723025444.895][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1102"
+}
+[1723025444.895][INFO]: Waiting for pending navigations...
+[1723025444.895][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.901][INFO]: Waiting for pending navigations...
+[1723025444.902][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.902][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "(13)"
+[1723025444.911][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='(7,949)']//parent::div/preceding-sibling::a//img"
+}
+[1723025444.911][INFO]: Waiting for pending navigations...
+[1723025444.913][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.924][INFO]: Waiting for pending navigations...
+[1723025444.925][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.925][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1103"
+}
+[1723025444.929][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1103"
+   }, "src" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}function T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1723025444.929][INFO]: Waiting for pending navigations...
+[1723025444.930][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.936][INFO]: Waiting for pending navigations...
+[1723025444.937][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.937][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE ExecuteScript "https://rukminim2.flixcart.com/image/612/612/xif0q/mug/n/t/d/tea-milk-lid-cup-unbreakable-double-wall-hot-and-cool-300-2-original-imah3etbarrgvzsb.jpeg?q=70"
+[1723025444.940][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='(7,949)']//parent::div[@class='_5OesEi afFzxY']//parent::div//a[@class='wjcEIp']"
+}
+[1723025444.940][INFO]: Waiting for pending navigations...
+[1723025444.941][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.952][INFO]: Waiting for pending navigations...
+[1723025444.953][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.953][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1104"
+}
+[1723025444.955][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1104"
+}
+[1723025444.955][INFO]: Waiting for pending navigations...
+[1723025444.956][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.962][INFO]: Waiting for pending navigations...
+[1723025444.963][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.963][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "Thiwa Tea/Milk Lid Cup Unbreakable Double Wall Hot and ..."
+[1723025444.965][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='(6,510)']//parent::div/preceding-sibling::a//img"
+}
+[1723025444.965][INFO]: Waiting for pending navigations...
+[1723025444.966][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.976][INFO]: Waiting for pending navigations...
+[1723025444.977][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.977][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1058"
+}
+[1723025444.980][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1058"
+   }, "src" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}function T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1723025444.980][INFO]: Waiting for pending navigations...
+[1723025444.982][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.986][INFO]: Waiting for pending navigations...
+[1723025444.987][INFO]: Done waiting for pending navigations. Status: ok
+[1723025444.987][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE ExecuteScript "https://rukminim2.flixcart.com/image/612/612/xif0q/mug/o/d/0/coffee-and-teamug-gift-for-birthday-couple-friends-lover-original-imah3et9ghnz3sj8.jpeg?q=70"
+[1723025444.989][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='(6,510)']//parent::div[@class='_5OesEi afFzxY']//parent::div//a[@class='wjcEIp']"
+}
+[1723025444.989][INFO]: Waiting for pending navigations...
+[1723025444.990][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.002][INFO]: Waiting for pending navigations...
+[1723025445.003][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.003][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1105"
+}
+[1723025445.005][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1105"
+}
+[1723025445.005][INFO]: Waiting for pending navigations...
+[1723025445.005][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.012][INFO]: Waiting for pending navigations...
+[1723025445.012][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.012][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "Thiwa Coffee and TeaMug gift for Birthday,Couple,Friend..."
+[1723025445.015][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='(5,960)']//parent::div/preceding-sibling::a//img"
+}
+[1723025445.016][INFO]: Waiting for pending navigations...
+[1723025445.016][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.029][INFO]: Waiting for pending navigations...
+[1723025445.031][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.031][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1106"
+}
+[1723025445.034][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1106"
+   }, "src" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}function T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1723025445.034][INFO]: Waiting for pending navigations...
+[1723025445.035][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.040][INFO]: Waiting for pending navigations...
+[1723025445.040][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.040][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE ExecuteScript "https://rukminim2.flixcart.com/image/612/612/xif0q/mug/e/c/h/coffee-lover-s-1st-preferable-choice-sipper-lid-400-1-speack-original-imagxfbmggzjrgrg.jpeg?q=70"
+[1723025445.044][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='(5,960)']//parent::div[@class='_5OesEi afFzxY']//parent::div//a[@class='wjcEIp']"
+}
+[1723025445.044][INFO]: Waiting for pending navigations...
+[1723025445.045][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.056][INFO]: Waiting for pending navigations...
+[1723025445.057][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.057][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1107"
+}
+[1723025445.060][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1107"
+}
+[1723025445.060][INFO]: Waiting for pending navigations...
+[1723025445.061][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.068][INFO]: Waiting for pending navigations...
+[1723025445.069][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.069][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "SPEACK Coffee Lover's 1st Preferable Choice Sipper Lid ..."
+[1723025445.071][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='(4,316)']//parent::div/preceding-sibling::a//img"
+}
+[1723025445.071][INFO]: Waiting for pending navigations...
+[1723025445.072][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.083][INFO]: Waiting for pending navigations...
+[1723025445.084][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.084][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1108"
+}
+[1723025445.087][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1108"
+   }, "src" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}function T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1723025445.087][INFO]: Waiting for pending navigations...
+[1723025445.088][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.092][INFO]: Waiting for pending navigations...
+[1723025445.093][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.093][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE ExecuteScript "https://rukminim2.flixcart.com/image/612/612/xif0q/mug/v/h/o/heavy-gauge-laser-print-tea-coffe-milk-250-6-bhai-chara-original-imah2kyeumb7dj6t.jpeg?q=70"
+[1723025445.095][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='(4,316)']//parent::div[@class='_5OesEi afFzxY']//parent::div//a[@class='wjcEIp']"
+}
+[1723025445.095][INFO]: Waiting for pending navigations...
+[1723025445.095][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.105][INFO]: Waiting for pending navigations...
+[1723025445.106][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.106][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1109"
+}
+[1723025445.109][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1109"
+}
+[1723025445.109][INFO]: Waiting for pending navigations...
+[1723025445.111][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.118][INFO]: Waiting for pending navigations...
+[1723025445.119][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.119][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "BHAI CHARA HEAVY GAUGE LASER PRINT TEA/COFFE/MILK Stain..."
+[1723025445.123][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='(3,733)']//parent::div/preceding-sibling::a//img"
+}
+[1723025445.123][INFO]: Waiting for pending navigations...
+[1723025445.124][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.135][INFO]: Waiting for pending navigations...
+[1723025445.136][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.136][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1110"
+}
+[1723025445.140][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1110"
+   }, "src" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}function T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1723025445.140][INFO]: Waiting for pending navigations...
+[1723025445.141][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.146][INFO]: Waiting for pending navigations...
+[1723025445.147][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.147][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE ExecuteScript "https://rukminim2.flixcart.com/image/612/612/xif0q/mug/w/p/t/steel-coffee-cup-with-lid-abs-plastic-outer-stainless-steel-original-imah3etkzjrwwvsu.jpeg?q=70"
+[1723025445.149][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//span[text()='(3,733)']//parent::div[@class='_5OesEi afFzxY']//parent::div//a[@class='wjcEIp']"
+}
+[1723025445.149][INFO]: Waiting for pending navigations...
+[1723025445.150][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.161][INFO]: Waiting for pending navigations...
+[1723025445.162][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.162][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1111"
+}
+[1723025445.164][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND GetElementText {
+   "id": "f.3E4B7BC456FA035D8D5C76F9D0E9668F.d.6867ADB47F7D169031D342F2F1E57FF4.e.1111"
+}
+[1723025445.164][INFO]: Waiting for pending navigations...
+[1723025445.164][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.171][INFO]: Waiting for pending navigations...
+[1723025445.171][INFO]: Done waiting for pending navigations. Status: ok
+[1723025445.171][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE GetElementText "Thiwa Steel Coffee Cup with Lid (ABS Plastic Outer) Sta..."
+[1723025445.177][INFO]: [011a15233551e2af1fd9ad766fdc3361] COMMAND CloseWindow {
+}
+[1723025445.297][INFO]: [011a15233551e2af1fd9ad766fdc3361] RESPONSE CloseWindow [  ]
