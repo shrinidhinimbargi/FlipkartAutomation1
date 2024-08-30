@@ -32,6 +32,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 // import io.github.bonigarcia.wdm.WebDriverManager;
 import demo.wrappers.Wrappers;
+import dev.failsafe.internal.util.Durations;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -75,48 +76,51 @@ public class TestCases {
         driver.manage().window().maximize();
     }
 
-    @Test
+    @Test // testcase01 - searching for the product washing machine and countoing all
+          // product with 4.0 rating
     public void testCase01() throws InterruptedException {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
         Wrappers homePage = new Wrappers(driver);
 
         homePage.navigateToHome();
-        Thread.sleep(20000);
+        wait.until(ExpectedConditions.urlContains("https://www.flipkart.com/"));
 
         homePage.searchBox("Washing Machine");
-        Thread.sleep(4000);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[text()='Popularity']")));
         WebElement button1 = driver.findElement(By.xpath("//div[text()='Popularity']"));
         homePage.clickOn(button1);
-        Thread.sleep(4000);
+        Thread.sleep(2000);
         homePage.countRating(4.0);
-        Thread.sleep(6000);
+
     }
 
-    @Test
+    @Test // testcase02 - search for the product iphone in the flipkart searchbox and
+          // print the title and discount percentage of all the items with greater than
+          // 17%
     public void testCase02() throws InterruptedException {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
         Wrappers homePage = new Wrappers(driver);
         homePage.navigateToHome();
-        Thread.sleep(20000);
+        wait.until(ExpectedConditions.urlContains("https://www.flipkart.com/"));
         homePage.searchBox("iPhone");
-        Thread.sleep(5000);
+        Thread.sleep(2000);
         homePage.DiscountPercent(17);
     }
 
-    @Test
+    @Test // testcase03 - search for the product coffee mug ang sort it by 4* and print
+          // the first 5 image url and title of product with highest number of reviews
     public void testCase03() throws InterruptedException {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
         Wrappers homePage = new Wrappers(driver);
         homePage.navigateToHome();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
-        Thread.sleep(7000);
-        homePage.searchBox("Coffee Mug");
-        Thread.sleep(5000);
+        wait.until(ExpectedConditions.urlContains("https://www.flipkart.com/"));
 
-        // wait.until(ExpectedConditions
-        // .presenceOfElementLocated(By.xpath("//div[text()='4★ &
-        // above']//preceding-sibling::input")));
-        WebElement element = driver
-                .findElement(By.xpath("(//div[@class='XqNaEv'])[1]"));
+        homePage.searchBox("Coffee Mug");
+
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//div[@class='XqNaEv'])[1]")));
+        WebElement element = driver.findElement(By.xpath("(//div[@class='XqNaEv'])[1]"));
         homePage.clickOn(element);
-        Thread.sleep(4000);
+        Thread.sleep(2000);
 
         homePage.reviewCountsSort(5);
 

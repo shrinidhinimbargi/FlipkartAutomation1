@@ -52,21 +52,21 @@ public class Wrappers {
     }
 
     public void searchBox(String product) throws InterruptedException {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         WebElement element = wait.until(ExpectedConditions
                 .elementToBeClickable(By.xpath("//input[@name='q']")));
         // Thread.sleep(4000);
         element.clear();
 
-        Thread.sleep(8000);
+        // Thread.sleep(8000);
         element.sendKeys(product);
-        Thread.sleep(4000);
+        Thread.sleep(2000);
         element.sendKeys(Keys.ENTER);
     }
 
     public void countRating(Double number) throws InterruptedException {
         int count = 0;
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions
                 .presenceOfAllElementsLocatedBy(By.xpath("//div[@class='col col-7-12']//div[@class='XQDdHH']")));
         List<WebElement> ratingList = driver
